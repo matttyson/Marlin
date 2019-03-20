@@ -39,6 +39,9 @@
 #define FAN2_PIN              44
 #define ORIG_E0_AUTO_FAN_PIN  44
 
+#define FIL_RUNOUT_PIN 19
+#define MOSFET_D_PIN -1
+
 #include "pins_RAMPS.h"
 
 // TODO 1.4 boards do have an E1 stepper driver. However the pin definitions
